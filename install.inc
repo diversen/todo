@@ -19,7 +19,7 @@
 /**
  * We set a version, so we can control if there are any upgrades etc.
  */
-$_INSTALL['VERSION'] = 1.11;
+$_INSTALL['VERSION'] = 1.12;
 
 /**
  * We also create a menu item to be added to the main menu
@@ -31,4 +31,7 @@ $_INSTALL['MAIN_MENU_ITEM'] = array (
     'parent' => 0, // does it have a parent item
     'weight' => 2, // weight
     'auth' => 'user', // Who can se this menu item
-); 
+);
+
+$_INSTALL['PUBLIC_CLONE_URL'] = 'git://github.com/diversen/todo.git';
+
